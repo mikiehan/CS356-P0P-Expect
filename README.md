@@ -10,7 +10,7 @@ brew install expect
 - UTCS Machine
   - Download the binary file we provide
   - Unzip it wiht ```tar -xf expect.tar```
-  - exec this command **once** ```echo 'LD_LIBRARY_PATH=$LD_LIBRARY_PATH:./' >> ~/.bashrc```
+  - exec this command **once** ```echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:./' >> ~/.bashrc```
   - logout and re-login UTCS machine
   - try to execute ```./expect``` if you can see like "expect1.1>". It means you could run expect now. Type exit and then enter to exit.
 
