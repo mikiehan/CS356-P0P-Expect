@@ -1,4 +1,4 @@
-## Installatin
+## Installation
 - Ubuntu
 ```
 sudo apt-get install expect
